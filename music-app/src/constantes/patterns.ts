@@ -1,0 +1,1 @@
+export const PATTERN_EMAIL = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;

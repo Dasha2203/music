@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.999" height="24" viewBox="0 0 27.999 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.065" y1="-0.295" x2="0.46" y2="1.288" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b2def"/>
+      <stop offset="0.597" stop-color="#2d9bef"/>
+      <stop offset="1" stop-color="#2dceef"/>
+    </linearGradient>
+  </defs>
+  <path id="Library_Icon_notification_selected_" data-name="Library Icon (notification, selected)" d="M23.339,24.9h1.489V18.8a8.694,8.694,0,0,1-1.489-.5Zm-5.461,0h1.489V.9H17.878Zm-5.56,0h1.489V.9H12.318ZM.9,24.3l1.39.5L10.432,2.2l-1.39-.5ZM23.339.9V7.5A8.694,8.694,0,0,1,24.829,7V.9Zm5.56,12a2.979,2.979,0,1,1-2.979-3A3,3,0,0,1,28.9,12.9Z" transform="translate(-0.9 -0.9)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

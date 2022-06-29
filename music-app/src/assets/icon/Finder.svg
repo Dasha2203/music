@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="96" viewBox="0 0 418 96">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.137" x2="0.135" y2="0.974" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b2def"/>
+      <stop offset="0.447" stop-color="#2d9bef"/>
+      <stop offset="1" stop-color="#2dceef"/>
+    </linearGradient>
+    <filter id="Music_Finder" x="0" y="0" width="92" height="96" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#188aee" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Finder" transform="translate(4 15.5)">
+    <rect id="Прямоугольник_1855" data-name="Прямоугольник 1855" width="414" height="65" fill="#303033"/>
+    <text id="MusicFinder" transform="translate(73 27)" fill="#2dceef" font-size="18" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">MusicFinder</tspan></text>
+    <text id="Determine_which_song_is_currently_playing" data-name="Determine which song is currently playing" transform="translate(73 49)" fill="#d5d5d5" font-size="13" font-family="Lato-Regular, Lato" letter-spacing="0.006em"><tspan x="0" y="0">Determine which song is currently playing</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -4, -15.5)" filter="url(#Music_Finder)">
+      <path id="Music_Finder-2" data-name="Music Finder" d="M69.7,46.706V43.972h0a1.244,1.244,0,0,0-.691-.879c-4.346-2.441-8.691-4.881-13.136-7.42-.4-.2-.988-.488-1.481-.781L53.8,34.6h0c-.4.2-9.086,5.174-13.728,7.81v-.1l-.1.1c-.494.293-.988.586-1.383.781a1.072,1.072,0,0,0-.593.976l-.1.1V61.057a1.055,1.055,0,0,0,.4.879c.1.1.2.1.3.2,4.84,2.734,9.679,5.467,14.519,8.3a.308.308,0,0,0,.2.1h.2a1.094,1.094,0,0,0,.79,0,.759.759,0,0,0,.494-.2c4.741-2.734,9.58-5.467,14.321-8.2a1.307,1.307,0,0,0,.79-1.269C69.7,56.176,69.8,51.489,69.7,46.706ZM67.628,59.788a1.182,1.182,0,0,1-.691,1.172c-4.247,2.441-8.1,4.686-12.346,7.127a1.2,1.2,0,0,1-1.383,0c-.988-.488-3.259-1.757-5.728-3.222L67.628,53.247ZM56.172,38.407l2.568,1.464c2.667,1.464,5.333,3.026,8,4.491a1.391,1.391,0,0,1,.79.879h0l.1,2.343v4.588L47.48,40.653c2.37-1.367,4.741-2.636,6.321-3.612Zm-14.42,5.467c1.383-.781,3.16-1.855,5.037-2.831V64.376c-1.778-.976-3.556-2.05-5.136-2.831-.79-.488-1.185-.781-1.383-1.172a4.185,4.185,0,0,1-.1-.488c-.1-1.855-.1-8.689-.1-13.18C40.073,44.753,40.369,44.656,41.752,43.875Z" transform="translate(-7.9 -4.6)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

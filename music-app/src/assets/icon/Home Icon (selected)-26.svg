@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.822" y1="-0.151" x2="0.554" y2="1.518" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b2def"/>
+      <stop offset="0.446" stop-color="#2d9bef"/>
+      <stop offset="1" stop-color="#2dceef"/>
+    </linearGradient>
+  </defs>
+  <path id="Home_Icon_selected_" data-name="Home Icon (selected)" d="M14,24V16.377H10V24H2.7V14.223H0L12,0,24,14.223H21.3V24Z" fill="url(#linear-gradient)"/>
+</svg>
