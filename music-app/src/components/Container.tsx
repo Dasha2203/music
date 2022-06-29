@@ -3,8 +3,8 @@ import {breakPointDesc} from "../constantes/variables";
 import {PageLineContainer} from "./PageLine/S.el";
 
 export const Container = styled.div`
-  padding-left: 26px;
-  padding-right: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
   
   @media (min-width: ${breakPointDesc}) {
