@@ -18,6 +18,7 @@ export const LogoContainer = styled.a`
   align-items: center;
   width: 88.45px;
   height: 40px;
+  transition: all .3s ease;
   
   svg {
     width: 100%;

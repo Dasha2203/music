@@ -74,9 +74,7 @@ export const AuthForm = () => {
         type={"button"}
         disabled={
           !password.value.length ||
-          !email.value.length ||
-          password.isDirty ||
-          email.isDirty
+          !email.value.length 
         }
         onClick={submit}
       >

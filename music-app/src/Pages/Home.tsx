@@ -18,7 +18,6 @@ export const Home = () => {
     const {artists, genres, playlists, albums} = useContext(MusicContext);
     const navigate = useNavigate();
     return (
-        <Page>
             <Container>
 
                 <PageLine
@@ -74,6 +73,5 @@ export const Home = () => {
                 </PageLine>
             </Container>
 
-        </Page>
     )
 }
