@@ -31,7 +31,7 @@ export const Blur = styled.div<{ login?: boolean; img?: string }>`
 
 export const Page = styled.div<{ login?: boolean; img?: string }>`
   position: relative;
-  padding-top: 84px;
+  padding-top: 120px;
   padding-bottom: 80px;
   width: 100%;
   background-color: var(--darkestColor);

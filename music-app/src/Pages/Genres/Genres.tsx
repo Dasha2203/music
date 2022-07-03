@@ -101,7 +101,7 @@ export const Genres = () => {
     }
 
     return (
-        <PageGenres>
+        <>
             <Container>
                 <SectionTitle>Genres</SectionTitle>
                 <WrapGenres>
@@ -146,6 +146,6 @@ export const Genres = () => {
             {modalError && <ModalError onClose={()=>setModalError('')} title={'Genre didn`t created'}/>}
 
 
-        </PageGenres>
+        </>
     )
 }

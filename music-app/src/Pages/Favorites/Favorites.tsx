@@ -19,11 +19,9 @@ export const Favorites = () => {
         }
     },[])
     return (
-        <FavoritesPage>
             <Container>
                 <SectionTitle>Favorites</SectionTitle>
                 {favorites.length && <ListTracks items={favorites} like={likeMusic}/>}
             </Container>
-        </FavoritesPage>
     )
 }

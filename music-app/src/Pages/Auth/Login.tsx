@@ -5,11 +5,8 @@ import {Container} from "../../components/Container";
 
 export const Login = () => {
     return (
-        <Page login>
-            <Container>
-                <AuthForm/>
-            </Container>
-        </Page>
-
+        <Container>
+            <AuthForm/>
+        </Container>
     )
 }

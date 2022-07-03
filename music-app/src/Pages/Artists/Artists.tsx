@@ -94,7 +94,7 @@ export const Artists = () => {
     }
 
     return (
-        <PageArtists>
+        <>
             <Container>
                 <SectionTitle>Artists</SectionTitle>
                 <WrapArtists>
@@ -143,6 +143,6 @@ export const Artists = () => {
 
             {modalSuccess && <ModalSuccess onClose={() => setModalSuccess('')} title={'Artist was created'}/>}
             {modalError && <ModalError onClose={() => setModalError(false)} title={'Artist didn`t created'}/>}
-        </PageArtists>
+        </>
     )
 }

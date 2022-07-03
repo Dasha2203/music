@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import {Page, SectionTitle} from "../../components/UI";
+import {breakPointDesc} from "../../constantes/variables";
 
 
 export const PlayListsItem = styled.div`
   padding: 6px;
   width: 50%;
-  min-width: 250px;
+  
   
   @media(min-width: 480px) {
     width: 33.33%;
@@ -19,6 +20,10 @@ export const PlayListsItem = styled.div`
   }
   @media (min-width: 1380px) {
     width: 16.6%;
+  }
+
+  @media (min-width: ${breakPointDesc}) {
+    min-width: 250px;
   }
 `;
 

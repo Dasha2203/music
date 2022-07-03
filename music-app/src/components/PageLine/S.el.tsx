@@ -53,6 +53,7 @@ export const PageLineLink = styled.a`
 
 export const PageLineAlbums = styled.div`
   display: flex;
+  flex-wrap: wrap;
   overflow-x: scroll;
 
   ${TrackContainer} {

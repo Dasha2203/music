@@ -5,7 +5,8 @@ import {Page, SectionTitle} from "../../components/UI";
 export const ArtistsItem = styled.div`
   padding: 6px;
   width: 50%;
-  min-width: 250px;
+  display: flex;
+  justify-content: center;
   
   @media(min-width: 480px) {
     width: 33.33%;

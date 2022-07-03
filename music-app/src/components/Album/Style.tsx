@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import {breakPointDesc} from "../../constantes/variables";
 
 export const AlbumImg = styled.div`
-  width: 225px;
-  height: 225px;
+  width: 151px;
+  height: 151px;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--violetColor);
@@ -11,6 +12,11 @@ export const AlbumImg = styled.div`
     object-fit: cover;
     width: 100%;
     height: 100%;
+  }
+
+  @media (min-width: ${breakPointDesc}) {
+    width: 225px;
+    height: 225px;
   }
 `;
 

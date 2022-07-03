@@ -3,8 +3,8 @@ import {breakPointDesc} from "../../constantes/variables";
 
 
 export const ArtistImg = styled.div`
-  width: 225px;
-  height: 225px;
+  width: 151px;
+  height: 151px;
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--lightBlueColor);
@@ -13,8 +13,12 @@ export const ArtistImg = styled.div`
     object-fit: cover;
     width: 120%;
     height: 120%;
-    
     transition: all .3s ease;
+  }
+
+  @media (min-width: ${breakPointDesc}) {
+    width: 225px;
+    height: 225px;
   }
 `;
 
@@ -41,7 +45,7 @@ export const ArtistLikes = styled.div`
 `;
 
 export const ArtistContainer = styled.div`
-  width: 225px;
+  
   user-select: none;
   cursor: pointer;
   transition: all .3s ease;
@@ -63,6 +67,10 @@ export const ArtistContainer = styled.div`
   
   ${ArtistLikes} {
     margin-top: 5px;
+  }
+  
+  @media (min-width: ${breakPointDesc}) {
+    width: 225px;
   }
 `;
 

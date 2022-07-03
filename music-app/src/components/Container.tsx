@@ -9,6 +9,12 @@ export const Container = styled.div`
   width: 100%;
   z-index: 2;
 
+  ${PageLineContainer} {
+    &:not(:last-child) {
+      margin-bottom: 45px;
+    }
+  }
+
   @media (min-width: ${breakPointDesc}) {
     margin-left: auto;
     margin-right: auto;

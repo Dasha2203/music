@@ -43,12 +43,9 @@ export const TracksByGenre = () => {
     }
 
     return (
-        <PageTracks>
             <Container>
                 <SectionTitle>Genres</SectionTitle>
                 {tracks.length && <ListTracks items={tracks} like={likeMusic}/>}
             </Container>
-
-        </PageTracks>
     )
 }

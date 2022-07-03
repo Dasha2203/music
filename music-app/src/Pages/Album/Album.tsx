@@ -163,7 +163,6 @@ export const Album = () => {
     }
 
     return (
-        <PageAlbum>
             <Container>
                 <SectionTitle>Album {tracks.length ? tracks[0].albomName : ''} {isAdmin && (
                     <ArtistBtns>
@@ -194,6 +193,5 @@ export const Album = () => {
                 )}
                 {tracks.length && <ListTracks removeCustom={removeTrackFromAlbum} items={tracks} like={likeMusic}/>}
             </Container>
-        </PageAlbum>
     )
 }

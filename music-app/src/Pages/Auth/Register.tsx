@@ -6,10 +6,8 @@ import {RegisterForm} from "../../components/AuthForm/RegisterForm";
 
 export const Register = () => {
     return (
-        <Page login>
-            <Container>
-                <RegisterForm/>
-            </Container>
-        </Page>
+        <Container>
+            <RegisterForm/>
+        </Container>
     )
 }

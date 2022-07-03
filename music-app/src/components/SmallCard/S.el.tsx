@@ -46,6 +46,9 @@ export const SmallCardContainer = styled.div`
   cursor: pointer;
   transition: all .3s ease;
   z-index: 5;
+  max-width: 225px;
+  height: 96px;
+  max-height: 88px;
 
   &:hover {
     transform: scale(1.05);
@@ -72,8 +75,8 @@ export const SmallCardContainer = styled.div`
   }
   
   @media (min-width: ${breakPointDesc}) {
-    max-width: 225px;
     height: 128px;
+    max-height: 128px;
   }
 `;
 

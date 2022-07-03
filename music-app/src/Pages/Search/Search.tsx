@@ -38,7 +38,6 @@ export const Search = () => {
     }
 
     return (
-        <SearchPage>
             <Container>
                 <SectionTitle>
                     Search
@@ -51,8 +50,6 @@ export const Search = () => {
                     error={''}
                 />
                 {tracks.length && <ListTracks items={tracks} like={likeMusic}/>}
-
             </Container>
-        </SearchPage>
     )
 }
